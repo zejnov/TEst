@@ -25,8 +25,7 @@ namespace SingleTon
 
             sim1.SimulationFinished += PrintListOfPeople;
             sim2.SimulationFinished += PrintListOfPeople;
-
-
+            
             sim1.Simulate(200,2100,"Sim1");
             sim2.Simulate(150,1000,"Sim2");
             

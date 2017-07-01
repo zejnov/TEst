@@ -35,10 +35,10 @@ namespace SingleTon
 
         private void PrintListOfPeople(object sender, EndSimulatorArgs args)
         {
-            //foreach (var entry in args.Register)
-            //{
-            //    Console.WriteLine($"{entry.Name} {entry.Surname}");
-            //}
+            foreach (var entry in args.Register)
+            {
+                Console.WriteLine($"{entry.Name} {entry.Surname}");
+            }
 
             Console.WriteLine($"Lista {args.SimulatorName} ma pól: {args.Register.Count}");
         }

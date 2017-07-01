@@ -10,6 +10,5 @@ namespace SingleTon
     {
         public string Name;
         public string Surname;
-
     }
 }
